@@ -29,6 +29,11 @@
             <descriptorRefs>
               <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
+            <archive>
+            <manifest>
+              <mainClass>app.App</mainClass>
+            </manifest>
+          </archive>
           </configuration>
         </plugin>
         <plugin>
@@ -134,4 +139,5 @@
     </dependencies>
     <name>TestNGxmlGenerator</name>
     <artifactId>testNGFrameworkArt</artifactId>
+
 </project>
